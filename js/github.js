@@ -40,8 +40,8 @@ SearchByVoice.addEventListener("click" , (e) => {
 //github api
 
 function SearchGitHubProfiles(searchText){
-    let Client_ID = "";
-    let Client_Secret = "";
+    let Client_ID = "027860e0ad6b9dbe28e9";
+    let Client_Secret = "be5a7347c15c3ebdfa58a03cf9a14310c5671254";
     const BASE_URL = `https://api.github.com/users/${searchText}?client_id=${Client_ID}&client_secret=${Client_Secret}`;
     
     let REPO_URL = `https://api.github.com/users/${searchText}/repos?client_id=${Client_ID}&client_secret=${Client_Secret}`;
